@@ -78,7 +78,9 @@ flutter:
       fonts:
         - asset: fonts/Poppins-Regular.otf
         - asset: fonts/Poppins-Medium.otf
+          weight: 400
         - asset: fonts/Poppins-Bold.otf
+          weight: 800
 
   #
   # For details regarding fonts from package dependencies,
