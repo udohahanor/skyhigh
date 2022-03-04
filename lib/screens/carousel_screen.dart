@@ -53,7 +53,7 @@ class CarouselScreen extends StatelessWidget {
       ),
       tablet: Container(
         width: double.infinity,
-        height: 400,
+        height: 500,
         decoration: const BoxDecoration(
           color: Colors.transparent,
           image: DecorationImage(
@@ -97,7 +97,7 @@ class CarouselScreen extends StatelessWidget {
       ),
       desktop: Container(
         width: double.infinity,
-        height: 500,
+        height: 600,
         decoration: const BoxDecoration(
           color: Colors.transparent,
           image: DecorationImage(
