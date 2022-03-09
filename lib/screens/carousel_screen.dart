@@ -36,7 +36,7 @@ class CarouselScreen extends StatelessWidget {
                 fontSize: 35.0,
               ),
             ),
-            const SizedBox(height: 80.0),
+            const SizedBox(height: 150.0),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 50.0),
               child: Container(
@@ -80,7 +80,7 @@ class CarouselScreen extends StatelessWidget {
                 fontSize: 35.0,
               ),
             ),
-            const SizedBox(height: 180.0),
+            const SizedBox(height: 250.0),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 50.0),
               child: Container(
