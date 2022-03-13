@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:skyhigh/screens/screens.dart';
 import 'package:skyhigh/widgets/widgets.dart';
@@ -22,6 +23,7 @@ class ExploreScreen extends StatelessWidget {
                 CarouselScreen(),
                 SizedBox(height: 30.0),
                 SpecialsScreen(),
+                CategoriesScreen(),
               ],
             ),
           ),

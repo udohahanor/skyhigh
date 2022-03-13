@@ -63,6 +63,8 @@ flutter:
     - assets/images/
     - assets/logos/
     - assets/images/specials/
+    - assets/images/categories/
+    - assets/images/categories/iconimg/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
