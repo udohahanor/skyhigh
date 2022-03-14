@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:skyhigh/consts/category_const.dart';
 
 class CategoriesScreen extends StatelessWidget {
   const CategoriesScreen({Key? key}) : super(key: key);
@@ -7,8 +8,8 @@ class CategoriesScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
-      height: 300.0,
-      color: Colors.blue,
+      height: 200.0,
+      color: Colors.transparent,
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 10.0),
         child: Column(
@@ -39,8 +40,31 @@ class CategoriesScreen extends StatelessWidget {
             ),
             const SizedBox(height: 10.0),
             Container(
-              height: 100.0,
-              color: Colors.brown,
+              alignment: Alignment.center,
+              height: 150.0,
+              color: Colors.transparent,
+              child: ListView.builder(
+                scrollDirection: Axis.horizontal,
+                itemCount: categories.length,
+                itemBuilder: (BuildContext context, int index) {
+                  Categories category = categories[index];
+                  return Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 18.0),
+                    child: Container(
+                      width: 100.0,
+                      height: 200.0,
+                      decoration: BoxDecoration(
+                        color: Colors.transparent,
+                        borderRadius: BorderRadius.circular(10.0),
+                        image: DecorationImage(
+                          image: AssetImage(category.imageUrl),
+                          fit: BoxFit.cover,
+                        ),
+                      ),
+                    ),
+                  );
+                },
+              ),
             ),
           ],
         ),

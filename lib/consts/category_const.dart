@@ -50,4 +50,22 @@ final List<Categories> categories = [
     description: 'Adventure',
     pricing: 'from \$673',
   ),
+  Categories(
+    imageUrl: 'assets/images/categories/beach.jpg',
+    iconImg: 'assets/images/categories/iconimg/adventure.png',
+    description: 'Adventure',
+    pricing: 'from \$673',
+  ),
+  Categories(
+    imageUrl: 'assets/images/categories/beach.jpg',
+    iconImg: 'assets/images/categories/iconimg/adventure.png',
+    description: 'Adventure',
+    pricing: 'from \$673',
+  ),
+  Categories(
+    imageUrl: 'assets/images/categories/beach.jpg',
+    iconImg: 'assets/images/categories/iconimg/adventure.png',
+    description: 'Adventure',
+    pricing: 'from \$673',
+  ),
 ];
